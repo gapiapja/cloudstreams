@@ -24,7 +24,7 @@ jobs:
           path: "src"
 
       - name: Checkout builds
-        uses: actions/checkout@master
+        uses: actions/checkout@4
         with:
           ref: "builds"
           path: "builds"
